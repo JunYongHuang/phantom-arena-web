@@ -50,8 +50,12 @@
             text-shadow: 1px 1px 2px rgb(0, 0, 0);
             font-size: 16px;
         }
+        .btn-copy {
+            display: none;
+        }
     </style>
     <!-- <script src='js/config/Config.js' loader='Config'></script> -->
+
     <div id="splash">
         <div class="splash-image">
             <div class="powered-by">
@@ -129,10 +133,10 @@
     <script type="text/javascript" src="libs/spine-core-3.8-85709.js"></script>
     <script type="text/javascript" src="js/astar-bb110.js"></script>
     <script type="text/javascript" src="js/domparserinone-6030d.js"></script>
-    <script type="text/javascript" src="js/Config-8c97f.js"></script>
+    <script type="text/javascript" src="js/Config-3bd55.js"></script>
     <script type="text/javascript" src="js/web3.min-c6210.js"></script>
-    <script type="text/javascript" src="js/bundle-64b52.js"></script>
-    <script type="text/javascript" src="js/index-3dec4.js"></script>
+    <script type="text/javascript" src="js/bundle-84257.js"></script>
+    <script type="text/javascript" src="js/index-49c0a.js"></script>
 
 
 
@@ -140,7 +144,8 @@
 
 
 
-
+    <button class="btn-copy" data-clipboard-text="">
+    </button>
 
     <div class="modal fade" id="avatar-modal" aria-hidden="true" aria-labelledby="avatar-modal-label" role="dialog" tabindex="-1" style="display: none;">
         <div class="modal-dialog modal-lg">
@@ -210,18 +215,25 @@
 
     <div class="loading" aria-label="Loading" role="img" tabindex="-1"></div>
 
-    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
-    <script src="https://www.jq22.com/jquery/bootstrap-3.3.4.js"></script>
-    
-    <link rel="stylesheet" type="text/css" href="https://www.jq22.com/jquery/bootstrap-3.3.4.css">
-    
-    <link rel="stylesheet" type="text/css" href="https://www.jq22.com/jquery/font-awesome.4.6.0.css">
 
-    <link href="head/cropper.min.css?id=1" rel="stylesheet">
-    <link href="head/sitelogo.css?id=1" rel="stylesheet">
+    
+    <link href="js/custom/bootstrap.css?id=1" rel="stylesheet">
+    <link href="js/custom/font-awesome.min.css?id=1" rel="stylesheet">
 
-    <script src="head/cropper.js?id=1"></script>
-    <script src="head/sitelogo.js?id=1"></script>
+    <script src="js/custom/jquery.min.js?id=1"></script>
+    <script src="js/custom/bootstrap.min.js?id=1"></script>
+    <script src="js/custom/clipboard.min.js?id=1"></script>
+
+
+
+
+    <link href="js/custom/head/cropper.min.css?id=1" rel="stylesheet">
+    <link href="js/custom/head/sitelogo.css?id=1" rel="stylesheet">
+
+    <script src="js/custom/head/cropper.js?id=1"></script>
+    <script src="js/custom/head/sitelogo.js?id=1"></script>
+    <script src="js/custom/head/html2canvas.min.js" type="text/javascript" charset="utf-8"></script>
+
     <style type="text/css">
 
 button.close {
@@ -310,7 +322,7 @@ button.close {
         
     </style>
 
-    <script src="head/html2canvas.min.js" type="text/javascript" charset="utf-8"></script>
+    
 
     <script type="text/javascript">
 
