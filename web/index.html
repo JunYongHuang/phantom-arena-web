@@ -1,0 +1,406 @@
+<html>
+
+<head>
+    <title>PHANTOM ARENA</title>
+    <meta charset='utf-8' />
+    <meta name='renderer' content='webkit' />
+    <meta name='viewport'
+        content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no' />
+    <meta name='apple-mobile-web-app-capable' content='yes' />
+    <meta name='full-screen' content='true' />
+    <meta name='x5-fullscreen' content='true' />
+    <meta name='360-fullscreen' content='true' />
+    <meta http-equiv='expires' content='0' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' />
+    <meta http-equiv='expires' content='0' />
+    <meta http-equiv='Cache-Control' content='no-siteapp' />
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body style="margin: 0;background-color: rgba(28, 90, 164, 1);color: #fff;">
+    <!-- Splash screen start -->
+    <style type="text/css">
+        #splash {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            z-index: 99999999;
+            transition: opacity ease-in-out 300ms;
+            transform-origin: left top;
+            background-color: rgba(28, 90, 164, 1);
+        }
+        
+        .splash-image {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-position: 50% 30%;
+            background-image: url('splash.png');
+            background-size: auto;
+        }
+
+        .powered-by {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            width: 100%;
+            height: 90%;
+            color: #fff;
+            text-shadow: 1px 1px 2px rgb(0, 0, 0);
+            font-size: 16px;
+        }
+    </style>
+    <!-- <script src='js/config/Config.js' loader='Config'></script> -->
+    <div id="splash">
+        <div class="splash-image">
+            <div class="powered-by">
+                <p>Powered by LayaAir Engine</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        (function() {
+            let splash = document.getElementById('splash');
+            let sm = "horizontal";
+            let du = parseInt("1000");
+            let ss = performance.now();
+
+            function fit() {
+                let flag = 0;
+                if (sm == "horizontal")
+                    flag = window.innerWidth < window.innerHeight ? 1 : 0;
+                else if (sm == "vertical")
+                    flag = window.innerWidth > window.innerHeight ? 2 : 0;
+
+                if (flag != 0) {
+                    splash.style.width = window.innerHeight + "px";
+                    splash.style.height = window.innerWidth + "px";
+
+                    if (flag == 1) {
+                        splash.style.transform = "rotate(90deg)";
+                        splash.style.left = window.innerWidth;
+                    }
+                    else {
+                        splash.style.transform = "rotate(-90deg)";
+                        splash.style.top = window.innerHeight;
+                    }
+                }
+                else {
+                    splash.style.transform = "";
+                    splash.style.width = "100%";
+                    splash.style.height = "100%";
+                    splash.style.left = "0px";
+                    splash.style.top = "0px";
+                }
+            }
+
+            function hide() {
+                window.removeEventListener("resize", fit);
+                delete window.hideSplashScreen;
+
+                let t = du - (performance.now() - ss);
+                if (t < 0) t = 0;
+                setTimeout(() => {
+                    splash.style.opacity = 0;
+                    setTimeout(() => splash.parentElement.removeChild(splash), 300);
+                }, t);
+            }
+
+            function onProgress(progress) {
+            }
+
+            window.addEventListener("resize", fit);
+            window.hideSplashScreen = hide;
+            window.onSplashProgress = onProgress;
+
+            fit();
+        })();
+    </script>
+    <!-- Splash screen end -->
+
+    <script type="text/javascript" src="libs/laya.core-3aad8.js"></script>
+    <script type="text/javascript" src="libs/laya.ui-841cd.js"></script>
+    <script type="text/javascript" src="libs/laya.ani-d6b33.js"></script>
+    <script type="text/javascript" src="libs/laya.tiledmap-b3b8a.js"></script>
+    <script type="text/javascript" src="libs/laya.physics2D-fede8.js"></script>
+    <script type="text/javascript" src="libs/laya.box2D-66afb.js"></script>
+    <script type="text/javascript" src="libs/laya.spine-7e80a.js"></script>
+    <script type="text/javascript" src="libs/spine-core-3.8-85709.js"></script>
+    <script type="text/javascript" src="js/astar-bb110.js"></script>
+    <script type="text/javascript" src="js/domparserinone-6030d.js"></script>
+    <script type="text/javascript" src="js/Config-8c97f.js"></script>
+    <script type="text/javascript" src="js/web3.min-c6210.js"></script>
+    <script type="text/javascript" src="js/bundle-64b52.js"></script>
+    <script type="text/javascript" src="js/index-3dec4.js"></script>
+
+
+
+
+
+
+
+
+
+    <div class="modal fade" id="avatar-modal" aria-hidden="true" aria-labelledby="avatar-modal-label" role="dialog" tabindex="-1" style="display: none;">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <!--<form class="avatar-form" action="upload-logo.php" enctype="multipart/form-data" method="post">-->
+                <form class="avatar-form">
+                    <div class="modal-header">
+                        <!-- <button class="close" data-dismiss="modal" type="button">&times;</button> -->
+                        <!-- <h4 class="modal-title" id="avatar-modal-label">上传图片</h4> -->
+                    </div>
+                    <div class="modal-body">
+                        <div class="avatar-body">
+                            
+                            
+                            <div class="avatar-row">
+                                <div class="">
+                                    <div class="avatar-wrapper"></div>
+                                </div>
+                                
+                            </div>
+
+                                <div class="col-md-3 right-flex">
+
+                                    <div class="avatar-upload">
+                                        <input class="avatar-src" name="avatar_src" type="hidden">
+                                        <input class="avatar-data" name="avatar_data" type="hidden">
+                                        <label class="uploadP" for="avatarInput" style="color: #ffffff;line-height: 35px;">图片上传</label>
+                                        <button class="btn selectI"  type="button" style="height: 35px;" onclick="$('input[id=avatarInput]').click();">请选择图片</button>
+                                        <span style="display: none;" id="avatar-name"></span>
+                                        <input class="avatar-input hide" id="avatarInput" name="avatar_file" type="file"></div>
+                                    
+
+                                        <div class="avatar-preview preview-md" id="imageHead"></div>
+                                    
+
+                                        <div class="col-md-5 hide" style="text-align: right;">
+                                            <button class="btn btn-danger fa fa-arrows" data-method="setDragMode" data-option="move" type="button" title="移动">
+                                            <span class="docs-tooltip" data-toggle="tooltip" title="" data-original-title="$().cropper(&quot;setDragMode&quot;, &quot;move&quot;)">
+                                            </span>
+                                          </button>
+                                          <button type="button" class="btn btn-danger fa fa-search-plus" data-method="zoom" data-option="0.1" title="放大图片">
+                                            <span class="docs-tooltip" data-toggle="tooltip" title="" data-original-title="$().cropper(&quot;zoom&quot;, 0.1)">
+                                              <!--<span class="fa fa-search-plus"></span>-->
+                                            </span>
+                                          </button>
+                                          <button type="button" class="btn btn-danger fa fa-search-minus" data-method="zoom" data-option="-0.1" title="缩小图片">
+                                            <span class="docs-tooltip" data-toggle="tooltip" title="" data-original-title="$().cropper(&quot;zoom&quot;, -0.1)">
+                                              <!--<span class="fa fa-search-minus"></span>-->
+                                            </span>
+                                          </button>
+                                          <button type="button" class="btn btn-danger fa fa-refresh" data-method="reset" title="重置图片">
+                                                <span class="docs-tooltip" data-toggle="tooltip" title="" data-original-title="$().cropper(&quot;reset&quot;)" aria-describedby="tooltip866214">
+                                           </button>
+                                        </div>
+
+                                    <button class="saveC btn btn-block avatar-save fa fa-save" type="button" data-dismiss="modal"> 保存修改</button>
+                                </div>
+                            </div>
+                        
+                            <button class="close" data-dismiss="modal" type="button">&times;</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="loading" aria-label="Loading" role="img" tabindex="-1"></div>
+
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://www.jq22.com/jquery/bootstrap-3.3.4.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="https://www.jq22.com/jquery/bootstrap-3.3.4.css">
+    
+    <link rel="stylesheet" type="text/css" href="https://www.jq22.com/jquery/font-awesome.4.6.0.css">
+
+    <link href="head/cropper.min.css?id=1" rel="stylesheet">
+    <link href="head/sitelogo.css?id=1" rel="stylesheet">
+
+    <script src="head/cropper.js?id=1"></script>
+    <script src="head/sitelogo.js?id=1"></script>
+    <style type="text/css">
+
+button.close {
+    top: 0;
+    position: absolute;
+    right: 0;
+}
+        .selectI {
+    color: #213343;
+    background-color: #13d4fa;
+    border-color: #127083;
+    font-weight: bold;
+}
+
+.avatar-save{
+    color: #433721;
+    background-color: #ffcb38;
+    border-color: #bb9528;
+    font-weight: bold;
+    font-size: large;
+    width: 80%;
+}
+
+.avatar-wrapper {
+    background-color: #00000030;
+}
+
+.avatar-preview {
+    background-color: #ffffff;
+    /* border: 1px solid #00000030; */
+    border-radius: 0;
+
+}
+
+.modal-title {
+    display: none;
+}
+
+.modal-content {
+    background-color: #0e73b3;
+}
+        .modal-header {
+    min-height: 16.42857143px;
+    padding: 15px 15px 0;
+    border-bottom: none;
+}
+.modal-body {
+    padding: 15px 0;
+    margin: 0 15px 15px;
+}
+        .avatar-body {
+            justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+        .avatar-btns button {
+            height: 35px;
+        }
+        .avatar-upload {
+            /* width: 20%; */
+        }
+        .avatar-row {
+            width: 25rem;
+    height: 25rem;
+    /* margin: 0 3rem 0rem 3rem; */
+    padding: 0;
+        }
+
+        .avatar-wrapper {
+    height: 100%;
+    width: 100%;
+    margin-top: 0;
+}
+.fa {
+    margin-top: 2rem;
+}
+.right-flex {
+    padding: 15px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+        
+    </style>
+
+    <script src="head/html2canvas.min.js" type="text/javascript" charset="utf-8"></script>
+
+    <script type="text/javascript">
+
+        var openWin;
+        function openUploadPic(_openWin, _zIndex, uploadP, selectI, saveC){
+            $("#avatar-modal").css("zIndex", _zIndex+2040);
+            $("#avatar-modal").modal('show');
+            
+            $(".uploadP").text(uploadP);
+            $(".selectI").text(selectI);
+            $(".saveC").text(" " + saveC);
+            openWin = _openWin;
+            // return "0";
+        }
+
+
+        //做个下简易的验证  大小 格式
+        $('#avatarInput').on('change', function(e) {
+            var filemaxsize = 1024 * 5;//5M
+            var target = $(e.target);
+            var Size = target[0].files[0].size / 1024;
+            if(Size > filemaxsize) {
+                alert('The picture is too large, please choose again!');
+                $(".avatar-wrapper").children().remove;
+                return false;
+            }
+            if(!this.files[0].type.match(/image.*/)) {
+                alert('Please select the correct picture!')
+            } else {
+                var filename = document.querySelector("#avatar-name");
+                var texts = document.querySelector("#avatarInput").value;
+                var teststr = texts; //你这里的路径写错了
+                testend = teststr.match(/[^\\]+\.[^\(]+/i); //直接完整文件名的
+                filename.innerHTML = testend;
+            }
+    
+        });
+    
+        $(".avatar-save").on("click", function() {
+            var img_lg = document.getElementById('imageHead');
+            // 截图小的显示框内的内容
+            html2canvas(img_lg, {
+                allowTaint: true,
+                taintTest: false,
+                onrendered: function(canvas) {
+                    canvas.id = "mycanvas";
+                    //生成base64图片数据
+                    var dataUrl = canvas.toDataURL("image/jpeg");
+                    var newImg = document.createElement("img");
+                    newImg.src = dataUrl;
+                    imagesAjax(dataUrl)
+                }
+            });
+        })
+    
+        function imagesAjax(base64Data) {
+    
+            // AjaxUtil.saveImg(src, function(datas){
+                console.log(base64Data);
+                // base64Pic = datas;
+                if(openWin){
+                    openWin.openPicEnd(openWin, base64Data);
+                    openWin = null;
+                }
+                    
+    
+            // });
+    //         var data = {};
+    //         data.img = src;
+    //         data.jid = $('#jid').val();
+    //         $.ajax({
+    //             url: "upload-logo.php",
+    //             data: data,
+    //             type: "POST",
+    //             dataType: 'json',
+    //             success: function(re) {
+    //                 if(re.status == '1') {
+    //                     $('.user_pic img').attr('src',src );
+    //                 }
+    //             }
+    //         });
+        }
+    </script>
+
+
+
+
+
+
+
+</body>
+
+</html>

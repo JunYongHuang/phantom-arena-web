@@ -1,0 +1,167 @@
+
+img_hero.png
+size: 397,277
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 310, 143
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 310, 187
+  size: 77, 88
+  orig: 78, 88
+  offset: 1, 0
+  index: -1
+4
+  rotate: true
+  xy: 209, 7
+  size: 30, 50
+  orig: 30, 50
+  offset: 0, 0
+  index: -1
+5
+  rotate: true
+  xy: 338, 117
+  size: 24, 29
+  orig: 24, 30
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 129, 5
+  size: 34, 60
+  orig: 34, 60
+  offset: 0, 0
+  index: -1
+8
+  rotate: true
+  xy: 369, 118
+  size: 23, 26
+  orig: 23, 26
+  offset: 0, 0
+  index: -1
+9
+  rotate: false
+  xy: 308, 114
+  size: 28, 27
+  orig: 28, 27
+  offset: 0, 0
+  index: -1
+a/0
+  rotate: true
+  xy: 78, 2
+  size: 58, 49
+  orig: 65, 51
+  offset: 7, 1
+  index: -1
+a/1
+  rotate: false
+  xy: 2, 2
+  size: 74, 58
+  orig: 78, 60
+  offset: 4, 1
+  index: -1
+a/2
+  rotate: true
+  xy: 210, 39
+  size: 67, 69
+  orig: 79, 72
+  offset: 12, 2
+  index: -1
+a/3
+  rotate: false
+  xy: 281, 33
+  size: 22, 73
+  orig: 24, 75
+  offset: 1, 1
+  index: -1
+a/a1
+  rotate: false
+  xy: 351, 32
+  size: 40, 39
+  orig: 47, 47
+  offset: 4, 4
+  index: -1
+a/a2
+  rotate: false
+  xy: 354, 143
+  size: 41, 42
+  orig: 47, 47
+  offset: 3, 4
+  index: -1
+a/a3
+  rotate: true
+  xy: 165, 21
+  size: 44, 42
+  orig: 46, 46
+  offset: 2, 2
+  index: -1
+a/a4
+  rotate: false
+  xy: 305, 19
+  size: 44, 40
+  orig: 46, 46
+  offset: 0, 3
+  index: -1
+a/a5
+  rotate: true
+  xy: 305, 61
+  size: 45, 44
+  orig: 46, 46
+  offset: 1, 0
+  index: -1
+a/a6
+  rotate: false
+  xy: 351, 73
+  size: 42, 42
+  orig: 46, 46
+  offset: 0, 2
+  index: -1
+a/b1
+  rotate: false
+  xy: 2, 62
+  size: 106, 105
+  orig: 106, 107
+  offset: 0, 0
+  index: -1
+a/b2
+  rotate: false
+  xy: 2, 169
+  size: 106, 106
+  orig: 106, 107
+  offset: 0, 0
+  index: -1
+a/b3
+  rotate: false
+  xy: 110, 168
+  size: 104, 107
+  orig: 106, 107
+  offset: 2, 0
+  index: -1
+a/b4
+  rotate: false
+  xy: 110, 67
+  size: 98, 99
+  orig: 106, 107
+  offset: 4, 3
+  index: -1
+a/b5
+  rotate: false
+  xy: 216, 185
+  size: 92, 90
+  orig: 106, 107
+  offset: 9, 7
+  index: -1
+a/b6
+  rotate: false
+  xy: 216, 108
+  size: 90, 75
+  orig: 106, 107
+  offset: 10, 21
+  index: -1

@@ -1,0 +1,1 @@
+{"_$ver":1,"_$id":"tvor5xc4pa","_$runtime":"WXpxCvqlQ2mKdcJCYlqOeg","_$type":"Box","name":"Box","width":117,"height":118,"_$child":[{"_$id":"1yt3qvqm","_$prefab":"../item/KnapsackItem.lh","_$var":true,"name":"knapsackItem","active":true,"x":0,"y":0,"visible":true}]}

@@ -1,0 +1,111 @@
+
+effect2.png
+size: 1920,1530
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+222csg111_00
+  rotate: true
+  xy: 1074, 186
+  size: 315, 314
+  orig: 375, 375
+  offset: 30, 31
+  index: -1
+CG1_00
+  rotate: true
+  xy: 2, 503
+  size: 471, 1774
+  orig: 912, 1956
+  offset: 179, 57
+  index: -1
+CG3_00
+  rotate: true
+  xy: 2, 976
+  size: 552, 1829
+  orig: 1232, 2480
+  offset: 336, 314
+  index: -1
+CG4_00
+  rotate: false
+  xy: 245, 110
+  size: 240, 391
+  orig: 256, 512
+  offset: 11, 0
+  index: -1
+CG5_00
+  rotate: false
+  xy: 2, 2
+  size: 241, 499
+  orig: 256, 512
+  offset: 3, 0
+  index: -1
+gsb_theme10108_tex0140
+  rotate: true
+  xy: 1778, 640
+  size: 142, 126
+  orig: 150, 150
+  offset: 4, 12
+  index: -1
+guangyun_00
+  rotate: true
+  xy: 1778, 784
+  size: 190, 131
+  orig: 227, 163
+  offset: 19, 15
+  index: -1
+guyun111_00
+  rotate: false
+  xy: 1833, 1349
+  size: 37, 36
+  orig: 70, 44
+  offset: 21, 4
+  index: -1
+ks_00
+  rotate: false
+  xy: 1833, 1445
+  size: 83, 83
+  orig: 149, 149
+  offset: 33, 33
+  index: -1
+lan
+  rotate: false
+  xy: 1833, 1387
+  size: 56, 56
+  orig: 64, 64
+  offset: 4, 4
+  index: -1
+lxxxxxxx
+  rotate: false
+  xy: 1778, 532
+  size: 110, 106
+  orig: 128, 128
+  offset: 9, 11
+  index: -1
+shuG1_00
+  rotate: true
+  xy: 1390, 262
+  size: 239, 528
+  orig: 574, 754
+  offset: 170, 97
+  index: -1
+shuG2_00
+  rotate: true
+  xy: 487, 157
+  size: 344, 585
+  orig: 574, 754
+  offset: 116, 70
+  index: -1
+shuG3_00
+  rotate: true
+  xy: 1390, 20
+  size: 240, 526
+  orig: 574, 754
+  offset: 169, 88
+  index: -1
+shutiao_10
+  rotate: false
+  xy: 1891, 1318
+  size: 10, 125
+  orig: 30, 153
+  offset: 10, 11
+  index: -1
