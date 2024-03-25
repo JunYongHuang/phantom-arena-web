@@ -17,7 +17,7 @@
     <link rel="icon" href="favicon.ico">
 </head>
 
-<body style="margin: 0;background-color: rgba(28, 90, 164, 1);color: #fff;">
+<body style="margin: 0;background: linear-gradient(to bottom, #133570, #1179b5);color: #fff;">
     <!-- Splash screen start -->
     <style type="text/css">
         #splash {
@@ -35,7 +35,7 @@
             height: 100%;
             width: 100%;
             background-repeat: no-repeat;
-            background-position: 50% 30%;
+            background-position: 50% 40%;
             background-image: url('splash.png');
             background-size: auto;
         }
@@ -58,9 +58,9 @@
 
     <div id="splash">
         <div class="splash-image">
-            <div class="powered-by">
+            <!-- <div class="powered-by">
                 <p>Powered by LayaAir Engine</p>
-            </div>
+            </div> -->
         </div>
     </div>
     <script>
@@ -133,10 +133,10 @@
     <script type="text/javascript" src="libs/spine-core-3.8-85709.js"></script>
     <script type="text/javascript" src="js/astar-bb110.js"></script>
     <script type="text/javascript" src="js/domparserinone-6030d.js"></script>
-    <script type="text/javascript" src="js/Config-758c6.js"></script>
+    <script type="text/javascript" src="js/Config-6236f.js"></script>
     <script type="text/javascript" src="js/web3.min-c6210.js"></script>
-    <script type="text/javascript" src="js/bundle-566a9.js"></script>
-    <script type="text/javascript" src="js/index-a59f2.js"></script>
+    <script type="text/javascript" src="js/bundle-91c74.js"></script>
+    <script type="text/javascript" src="js/index-d1523.js"></script>
 
 
 
@@ -168,11 +168,11 @@
                             </div>
 
                                 <div class="col-md-3 right-flex">
-
+                                    <label class="uploadP" for="avatarInput" style="color: #ffffff;line-height: 35px;">图片上传</label>
                                     <div class="avatar-upload">
                                         <input class="avatar-src" name="avatar_src" type="hidden">
                                         <input class="avatar-data" name="avatar_data" type="hidden">
-                                        <label class="uploadP" for="avatarInput" style="color: #ffffff;line-height: 35px;">图片上传</label>
+                                        
                                         <button class="btn selectI"  type="button" style="height: 35px;" onclick="$('input[id=avatarInput]').click();">请选择图片</button>
                                         <span style="display: none;" id="avatar-name"></span>
                                         <input class="avatar-input hide" id="avatarInput" name="avatar_file" type="file"></div>
@@ -217,12 +217,13 @@
 
 
     
-    <link href="js/custom/bootstrap.css?id=1" rel="stylesheet">
-    <link href="js/custom/font-awesome.min.css?id=1" rel="stylesheet">
+    <link href="js/custom/css/bootstrap.css?id=1" rel="stylesheet">
+    <link href="js/custom/css/font-awesome.min.css?id=1" rel="stylesheet">
 
-    <script src="js/custom/jquery.min.js?id=1"></script>
-    <script src="js/custom/bootstrap.min.js?id=1"></script>
-    <script src="js/custom/clipboard.min.js?id=1"></script>
+    <script src="js/custom/css/jquery.min.js?id=1"></script>
+    <script src="js/custom/css/bootstrap.min.js?id=1"></script>
+    <script src="js/custom/css/clipboard.min.js?id=1"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script> -->
 
 
 
@@ -236,25 +237,52 @@
 
     <style type="text/css">
 
+
+@media (min-width: 992px) {
+  .modal-lg {
+    width: 600px;
+    margin: 30px auto;
+  }
+}
+.close:hover, .close:focus {
+    color: #71f3f1;
+    text-decoration: none;
+    cursor: pointer;
+    filter: alpha(opacity=100);
+    opacity: 1;}
+
 button.close {
+    color: #71f3f1;
+    text-shadow: 3px 3px 0px #1b3569;
+    font-size: 28px;
+    opacity: 1;
     top: 0;
     position: absolute;
     right: 0;
 }
         .selectI {
+            line-height: 1.3;
     color: #213343;
-    background-color: #13d4fa;
-    border-color: #127083;
+    /* background-color: #13d4fa; */
+    /* border-color: #127083; */
     font-weight: bold;
+    border: 0;
+    background: linear-gradient(to right bottom, #00c6ff, #02eff4);
+    box-shadow: 2px 2px 1px 0px #90fff8;
 }
 
 .avatar-save{
+    line-height: 1.3;
     color: #433721;
-    background-color: #ffcb38;
-    border-color: #bb9528;
+    /* background-color: #ffcb38;
+    border-color: #bb9528; */
     font-weight: bold;
     font-size: large;
-    width: 80%;
+    width: 130px;
+    text-align: center;
+    border: 0;
+    background: linear-gradient(to right bottom, #ffc119, #ffe651);
+    box-shadow: 2px 2px 1px 0px #65fffe;
 }
 
 .avatar-wrapper {
@@ -265,6 +293,7 @@ button.close {
     background-color: #ffffff;
     /* border: 1px solid #00000030; */
     border-radius: 0;
+    margin: 2rem 0 0 0;
 
 }
 
@@ -273,7 +302,9 @@ button.close {
 }
 
 .modal-content {
-    background-color: #0e73b3;
+    /* background-color: #0e73b3; */
+    background: linear-gradient(to bottom, #133570, #1179b5);
+    box-shadow: 3px 3px 1px 0px #42d3d9;
 }
         .modal-header {
     min-height: 16.42857143px;
@@ -295,6 +326,7 @@ button.close {
         }
         .avatar-upload {
             /* width: 20%; */
+            overflow: visible;
         }
         .avatar-row {
             width: 25rem;
@@ -312,7 +344,7 @@ button.close {
     margin-top: 2rem;
 }
 .right-flex {
-    padding: 15px;
+    padding: 0 15px;
     justify-content: space-evenly;
     display: flex;
     flex-wrap: nowrap;
@@ -333,7 +365,7 @@ button.close {
             
             $(".uploadP").text(uploadP);
             $(".selectI").text(selectI);
-            $(".saveC").text(" " + saveC);
+            $(".saveC").text(" " + saveC );
             openWin = _openWin;
             // return "0";
         }

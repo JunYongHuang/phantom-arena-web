@@ -20,6 +20,10 @@
 
 .avatar-upload {
   overflow: hidden;
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
 
 .avatar-upload label {
