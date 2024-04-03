@@ -1,1 +1,0 @@
-{"meta":{"prefix":"res/bitmapFont/","scale":1,"image":"bitmapFont.png"},"frames":{"ebrima.png":{"frame":{"idx":0,"x":0,"y":0,"w":511,"h":385},"sourceSize":{"w":512,"h":512},"spriteSourceSize":{"x":0,"y":0}},"gothic.png":{"frame":{"idx":0,"x":0,"y":387,"w":124,"h":108},"sourceSize":{"w":128,"h":128},"spriteSourceSize":{"x":0,"y":0}}}}
