@@ -133,10 +133,10 @@
     <script type="text/javascript" src="libs/spine-core-3.8-85709.js"></script>
     <script type="text/javascript" src="js/astar-bb110.js"></script>
     <script type="text/javascript" src="js/domparserinone-6030d.js"></script>
-    <script type="text/javascript" src="js/Config-a3924.js"></script>
-    <script type="text/javascript" src="js/web3.min-da359.js"></script>
-    <script type="text/javascript" src="js/bundle-12132.js"></script>
-    <script type="text/javascript" src="js/index-59e3e.js"></script>
+    <script type="text/javascript" src="js/Config-97a2e.js"></script>
+    <script type="text/javascript" src="js/web3.min-c6210.js"></script>
+    <script type="text/javascript" src="js/bundle-4c9df.js"></script>
+    <script type="text/javascript" src="js/index-5f787.js"></script>
 
 
 
@@ -220,6 +220,7 @@
     <link href="js/custom/css/bootstrap.css?id=1" rel="stylesheet">
     <link href="js/custom/css/font-awesome.min.css?id=1" rel="stylesheet">
 
+    <script src="js/custom/css/tongji.js?id=1"></script>
     <script src="js/custom/css/jquery.min.js?id=1"></script>
     <script src="js/custom/css/bootstrap.min.js?id=1"></script>
     <script src="js/custom/css/clipboard.min.js?id=1"></script>
@@ -233,7 +234,9 @@
 
     <script src="js/custom/head/cropper.js?id=1"></script>
     <script src="js/custom/head/sitelogo.js?id=1"></script>
+    
     <script src="js/custom/head/html2canvas.min.js" type="text/javascript" charset="utf-8"></script>
+    <!-- <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js" type="text/javascript" charset="utf-8"></script> -->
 
     <style type="text/css">
 
@@ -394,20 +397,40 @@ button.close {
         });
     
         $(".avatar-save").on("click", function() {
-            var img_lg = document.getElementById('imageHead');
-            // 截图小的显示框内的内容
-            html2canvas(img_lg, {
-                allowTaint: true,
-                taintTest: false,
-                onrendered: function(canvas) {
-                    canvas.id = "mycanvas";
-                    //生成base64图片数据
-                    var dataUrl = canvas.toDataURL("image/jpeg");
-                    var newImg = document.createElement("img");
-                    newImg.src = dataUrl;
-                    imagesAjax(dataUrl)
-                }
+
+
+            const element = document.getElementById('imageHead');
+            const options = {};
+            html2canvas(element, options).then((canvas) => {
+                const png = canvas.toDataURL("image/png");  //拿到截图后转换为png图片
+
+                // const img = document.createElement('img');
+                // img.setAttribute('src', png);
+                // window.document.body.appendChild(img);   //将png图片添加到页面验证
+                imagesAjax(png);
+                // console.log(png);
             });
+
+
+            // var img_lg = document.getElementById('imageHead');
+            // // 截图小的显示框内的内容
+            // html2canvas(img_lg, {
+            //     allowTaint: true,
+            //     taintTest: false,
+            //     scale: window.devicePixelRatio,
+            //     onrendered: function(canvas) {
+            //         canvas.id = "mycanvas";
+            //         //生成base64图片数据
+            //         var dataUrl = canvas.toDataURL("image/jpeg");
+            //         var newImg = document.createElement("img");
+            //         newImg.src = dataUrl;
+            //         imagesAjax(dataUrl)
+            //     }
+            // });
+
+
+
+
         })
     
         function imagesAjax(base64Data) {
