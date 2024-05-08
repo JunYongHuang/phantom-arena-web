@@ -1,0 +1,300 @@
+
+img_hero.png
+size: 709,773
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 270, 17
+  size: 110, 130
+  orig: 111, 130
+  offset: 1, 0
+  index: -1
+2
+  rotate: false
+  xy: 311, 272
+  size: 222, 196
+  orig: 223, 197
+  offset: 1, 0
+  index: -1
+3
+  rotate: false
+  xy: 382, 33
+  size: 69, 114
+  orig: 69, 114
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 453, 71
+  size: 67, 97
+  orig: 69, 97
+  offset: 1, 0
+  index: -1
+5
+  rotate: true
+  xy: 151, 283
+  size: 60, 75
+  orig: 61, 76
+  offset: 0, 0
+  index: -1
+6
+  rotate: true
+  xy: 228, 338
+  size: 43, 80
+  orig: 44, 82
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 228, 461
+  size: 81, 86
+  orig: 81, 86
+  offset: 0, 0
+  index: -1
+a/0
+  rotate: false
+  xy: 2, 549
+  size: 309, 222
+  orig: 309, 224
+  offset: 0, 1
+  index: -1
+a/1
+  rotate: true
+  xy: 313, 553
+  size: 218, 236
+  orig: 218, 237
+  offset: 0, 0
+  index: -1
+a/2
+  rotate: true
+  xy: 2, 435
+  size: 112, 224
+  orig: 113, 224
+  offset: 1, 0
+  index: -1
+a/3
+  rotate: true
+  xy: 313, 470
+  size: 81, 226
+  orig: 83, 231
+  offset: 2, 4
+  index: -1
+a/a1
+  rotate: true
+  xy: 320, 149
+  size: 121, 119
+  orig: 125, 122
+  offset: 2, 2
+  index: -1
+a/a2
+  rotate: true
+  xy: 140, 15
+  size: 132, 128
+  orig: 136, 134
+  offset: 3, 4
+  index: -1
+a/a3
+  rotate: true
+  xy: 2, 9
+  size: 138, 136
+  orig: 142, 143
+  offset: 3, 6
+  index: -1
+a/a4
+  rotate: false
+  xy: 2, 149
+  size: 142, 139
+  orig: 147, 148
+  offset: 3, 7
+  index: -1
+a/a5
+  rotate: false
+  xy: 2, 290
+  size: 147, 143
+  orig: 152, 152
+  offset: 3, 7
+  index: -1
+a/a6
+  rotate: false
+  xy: 541, 366
+  size: 150, 144
+  orig: 156, 157
+  offset: 3, 11
+  index: -1
+a/a7
+  rotate: false
+  xy: 551, 512
+  size: 152, 138
+  orig: 157, 156
+  offset: 3, 14
+  index: -1
+a/a8
+  rotate: false
+  xy: 551, 652
+  size: 153, 119
+  orig: 157, 155
+  offset: 1, 18
+  index: -1
+a/a9
+  rotate: false
+  xy: 535, 251
+  size: 150, 113
+  orig: 157, 137
+  offset: 0, 19
+  index: -1
+ef/TX_xuli_0001
+  rotate: true
+  xy: 522, 74
+  size: 94, 93
+  orig: 100, 97
+  offset: 3, 1
+  index: -1
+ef/bdlan01
+  rotate: false
+  xy: 687, 314
+  size: 15, 22
+  orig: 30, 60
+  offset: 7, 0
+  index: -1
+ef/bdlan02
+  rotate: true
+  xy: 617, 194
+  size: 25, 42
+  orig: 30, 60
+  offset: 2, 2
+  index: -1
+ef/bdlan03
+  rotate: true
+  xy: 617, 221
+  size: 28, 46
+  orig: 30, 60
+  offset: 1, 7
+  index: -1
+ef/bdlan04
+  rotate: true
+  xy: 382, 2
+  size: 29, 42
+  orig: 30, 60
+  offset: 1, 14
+  index: -1
+ef/bdlan05
+  rotate: true
+  xy: 426, 2
+  size: 29, 37
+  orig: 30, 60
+  offset: 1, 21
+  index: -1
+ef/bdlan06
+  rotate: true
+  xy: 666, 220
+  size: 29, 32
+  orig: 30, 60
+  offset: 1, 27
+  index: -1
+ef/bdlan07
+  rotate: false
+  xy: 666, 193
+  size: 28, 25
+  orig: 30, 60
+  offset: 1, 35
+  index: -1
+ef/bdlan08
+  rotate: true
+  xy: 687, 338
+  size: 26, 20
+  orig: 30, 60
+  offset: 2, 39
+  index: -1
+ef/dd
+  rotate: false
+  xy: 534, 171
+  size: 21, 21
+  orig: 25, 25
+  offset: 2, 2
+  index: -1
+ef/dg
+  rotate: true
+  xy: 228, 269
+  size: 67, 73
+  orig: 100, 100
+  offset: 10, 14
+  index: -1
+ef/quan22
+  rotate: true
+  xy: 441, 170
+  size: 100, 91
+  orig: 100, 100
+  offset: 0, 9
+  index: -1
+ef/quan33
+  rotate: true
+  xy: 228, 383
+  size: 76, 81
+  orig: 100, 100
+  offset: 15, 9
+  index: -1
+ef/quan4
+  rotate: false
+  xy: 529, 3
+  size: 69, 69
+  orig: 75, 75
+  offset: 3, 3
+  index: -1
+ef/shitou3 (2)
+  rotate: false
+  xy: 151, 345
+  size: 75, 88
+  orig: 100, 100
+  offset: 19, 10
+  index: -1
+ef/sm_gs_superskill1_0_hit_2801
+  rotate: true
+  xy: 534, 194
+  size: 55, 58
+  orig: 86, 89
+  offset: 11, 12
+  index: -1
+ef/sm_gs_superskill1_0_hit_2802
+  rotate: false
+  xy: 600, 4
+  size: 64, 68
+  orig: 86, 89
+  offset: 8, 12
+  index: -1
+ef/sm_gs_superskill1_0_hit_2803
+  rotate: true
+  xy: 146, 214
+  size: 67, 70
+  orig: 86, 89
+  offset: 7, 11
+  index: -1
+ef/sm_gs_superskill1_0_hit_2804
+  rotate: true
+  xy: 617, 127
+  size: 64, 68
+  orig: 86, 89
+  offset: 8, 12
+  index: -1
+ef/sm_gs_superskill1_0_hit_2805
+  rotate: true
+  xy: 146, 149
+  size: 63, 66
+  orig: 86, 89
+  offset: 10, 14
+  index: -1
+ef/sm_gs_superskill1_0_hit_2806
+  rotate: false
+  xy: 465, 3
+  size: 62, 66
+  orig: 86, 89
+  offset: 10, 14
+  index: -1
+ef/tx_baoz3
+  rotate: false
+  xy: 218, 149
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
