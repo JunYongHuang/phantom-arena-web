@@ -4,11 +4,11 @@
  * @Author: hjy
  * @Date: 2023-12-21 10:15:05
  * @LastEditors: hjy
- * @LastEditTime: 2024-05-28 15:29:39
+ * @LastEditTime: 2024-05-28 15:10:04
  */
 
 
-var game_version = "V_0528_04";	
+var game_version = "V_0528_05";	
 
 var v_type = 2; //0=QA；1=S0; 2=SN;
 
@@ -19,7 +19,7 @@ function getGameVersion(){
 function getVType(){
 	return v_type;
 }
-
+	
 //服务器path
 
 var server2 = "https://api.phantomarena.co";//外网-sn-正式服务器1(线上正式)
