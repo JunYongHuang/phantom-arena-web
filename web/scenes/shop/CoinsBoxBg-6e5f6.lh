@@ -1,0 +1,1 @@
+{"_$ver":1,"_$id":"cgas7i6e","_$var":true,"_$type":"Box","name":"CoinsBoxBg","x":266,"y":20,"width":1068,"height":79,"_mouseState":2,"_$child":[{"_$id":"cwhepjin","_$var":true,"_$type":"Image","name":"img_coinsBg","x":-430,"width":1498,"height":84,"right":0,"skin":"res/common/comm/img_com_sd.png","useSourceSize":true,"color":"#ffffff"}]}
