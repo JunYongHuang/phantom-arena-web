@@ -8,9 +8,9 @@
  */
 
 
-var game_version = "V_0612_03";	
+var game_version = "V_0612_04";	
 
-var v_type = 1; //0=QA；1=S0; 2=SN;
+var v_type = 2; //0=QA；1=S0; 2=SN;
 
 
 function getGameVersion(){
