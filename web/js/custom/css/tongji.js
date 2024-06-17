@@ -4,7 +4,7 @@
  * @Author: hjy
  * @Date: 2024-04-09 13:06:24
  * @LastEditors: hjy
- * @LastEditTime: 2024-04-09 13:07:03
+ * @LastEditTime: 2024-06-17 12:41:57
  * @Description: 
  */
 
@@ -15,4 +15,12 @@ var _hmt = _hmt || [];
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
+
+
+
+  // window.dataLayer = window.dataLayer || [];
+  // function gtag(){dataLayer.push(arguments);}
+  // gtag('js', new Date());
+
+  // gtag('config', 'G-B6F62P3M2K');
 
