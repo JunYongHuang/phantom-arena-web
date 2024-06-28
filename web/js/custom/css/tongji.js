@@ -23,4 +23,5 @@ var _hmt = _hmt || [];
   gtag('js', new Date());
 
   gtag('config', 'G-B6F62P3M2K');
+  // gtag('config', 'G-B6F62P3M2K', { 'debug_mode': true });
 
