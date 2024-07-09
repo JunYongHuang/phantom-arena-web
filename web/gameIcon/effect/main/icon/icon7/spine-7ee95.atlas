@@ -1,0 +1,146 @@
+
+spine.png
+size: 277,275
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_00
+  rotate: false
+  xy: 206, 211
+  size: 64, 62
+  orig: 176, 210
+  offset: 60, 71
+  index: -1
+1_19
+  rotate: false
+  xy: 206, 211
+  size: 64, 62
+  orig: 176, 210
+  offset: 60, 71
+  index: -1
+1_01
+  rotate: false
+  xy: 123, 2
+  size: 53, 67
+  orig: 176, 210
+  offset: 71, 71
+  index: -1
+1_02
+  rotate: false
+  xy: 176, 73
+  size: 45, 66
+  orig: 176, 210
+  offset: 78, 72
+  index: -1
+1_03
+  rotate: false
+  xy: 66, 3
+  size: 55, 66
+  orig: 176, 210
+  offset: 68, 72
+  index: -1
+1_04
+  rotate: false
+  xy: 2, 208
+  size: 65, 65
+  orig: 176, 210
+  offset: 58, 73
+  index: -1
+1_05
+  rotate: true
+  xy: 2, 137
+  size: 69, 58
+  orig: 176, 210
+  offset: 54, 80
+  index: -1
+1_06
+  rotate: true
+  xy: 62, 136
+  size: 70, 49
+  orig: 176, 210
+  offset: 53, 89
+  index: -1
+1_07
+  rotate: true
+  xy: 124, 71
+  size: 68, 50
+  orig: 176, 210
+  offset: 53, 88
+  index: -1
+1_08
+  rotate: true
+  xy: 2, 4
+  size: 64, 62
+  orig: 176, 210
+  offset: 53, 76
+  index: -1
+1_09
+  rotate: true
+  xy: 138, 214
+  size: 59, 66
+  orig: 176, 210
+  offset: 53, 71
+  index: -1
+1_10
+  rotate: false
+  xy: 218, 143
+  size: 54, 66
+  orig: 176, 210
+  offset: 53, 71
+  index: -1
+1_11
+  rotate: false
+  xy: 220, 6
+  size: 43, 65
+  orig: 176, 210
+  offset: 54, 71
+  index: -1
+1_12
+  rotate: false
+  xy: 223, 79
+  size: 52, 62
+  orig: 176, 210
+  offset: 54, 71
+  index: -1
+1_13
+  rotate: true
+  xy: 62, 71
+  size: 63, 60
+  orig: 176, 210
+  offset: 54, 71
+  index: -1
+1_14
+  rotate: true
+  xy: 2, 70
+  size: 65, 58
+  orig: 176, 210
+  offset: 54, 71
+  index: -1
+1_15
+  rotate: true
+  xy: 113, 141
+  size: 70, 51
+  orig: 176, 210
+  offset: 54, 71
+  index: -1
+1_16
+  rotate: true
+  xy: 178, 2
+  size: 69, 40
+  orig: 176, 210
+  offset: 55, 71
+  index: -1
+1_17
+  rotate: true
+  xy: 166, 141
+  size: 68, 50
+  orig: 176, 210
+  offset: 56, 71
+  index: -1
+1_18
+  rotate: false
+  xy: 69, 213
+  size: 67, 60
+  orig: 176, 210
+  offset: 57, 71
+  index: -1
