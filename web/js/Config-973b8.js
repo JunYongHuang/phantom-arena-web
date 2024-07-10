@@ -4,11 +4,11 @@
  * @Author: hjy
  * @Date: 2023-12-21 10:15:05
  * @LastEditors: hjy
- * @LastEditTime: 2024-07-09 14:25:23
+ * @LastEditTime: 2024-07-10 21:35:26
  */
 
 
-var game_version = "V_0710_02";	
+var game_version = "V_0710_03";	
 
 var v_type = 2; //0=QA；1=S0; 2=SN;
 
@@ -108,19 +108,22 @@ function doCopy(str) {
 
 function showChatBtn(isShow, address, name){
 	// 获取 chat-widget-container 元素
-var chatWidget = document.getElementById('chat-widget-container');
-	if(isShow){
-		if(address){
-			LiveChatWidget.call("set_customer_name", address);
+	var chatWidget = document.getElementById('chat-widget-container');
+	if(chatWidget){
+		if(isShow){
+			if(address){
+				LiveChatWidget.call("set_customer_name", address);
+			}
+			if(name){
+				LiveChatWidget.call("set_customer_email", name);
+			}
+			
+			chatWidget.style.display = 'block';
+		}else{
+			chatWidget.style.display = 'none';
 		}
-		if(name){
-			LiveChatWidget.call("set_customer_email", name);
-		}
-		
-		chatWidget.style.display = 'block';
-	}else{
-		chatWidget.style.display = 'none';
 	}
+	
 }
 
 
