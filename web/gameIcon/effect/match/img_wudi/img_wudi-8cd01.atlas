@@ -1,0 +1,55 @@
+
+img_wudi.png
+size: 98,468
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+daoguang
+  rotate: false
+  xy: 2, 441
+  size: 48, 25
+  orig: 50, 25
+  offset: 0, 0
+  index: -1
+sk1_d3_00000
+  rotate: false
+  xy: 2, 310
+  size: 94, 75
+  orig: 100, 86
+  offset: 4, 8
+  index: -1
+sk1_d3_00002
+  rotate: false
+  xy: 2, 233
+  size: 94, 75
+  orig: 100, 86
+  offset: 4, 8
+  index: -1
+sk1_d3_00004
+  rotate: false
+  xy: 2, 156
+  size: 94, 75
+  orig: 100, 86
+  offset: 4, 8
+  index: -1
+sk1_d3_00006
+  rotate: false
+  xy: 2, 79
+  size: 94, 75
+  orig: 100, 86
+  offset: 4, 8
+  index: -1
+sk1_d3_00008
+  rotate: false
+  xy: 2, 2
+  size: 94, 75
+  orig: 100, 86
+  offset: 4, 8
+  index: -1
+sk1_d3yuan
+  rotate: true
+  xy: 2, 387
+  size: 52, 85
+  orig: 56, 90
+  offset: 2, 3
+  index: -1

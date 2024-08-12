@@ -1,0 +1,20 @@
+
+img_equip_2.png
+size: 75,42
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+3_00
+  rotate: true
+  xy: 2, 2
+  size: 38, 43
+  orig: 78, 66
+  offset: 20, 11
+  index: -1
+toukui
+  rotate: false
+  xy: 47, 5
+  size: 26, 35
+  orig: 38, 38
+  offset: 6, 1
+  index: -1

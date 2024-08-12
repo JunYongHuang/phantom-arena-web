@@ -1,0 +1,20 @@
+
+img_equip_1.png
+size: 79,45
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+5_00
+  rotate: true
+  xy: 2, 2
+  size: 41, 42
+  orig: 78, 66
+  offset: 18, 12
+  index: -1
+futou
+  rotate: false
+  xy: 46, 11
+  size: 31, 32
+  orig: 38, 38
+  offset: 2, 3
+  index: -1

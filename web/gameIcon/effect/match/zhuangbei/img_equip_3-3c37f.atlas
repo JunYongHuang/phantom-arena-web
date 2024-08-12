@@ -1,0 +1,20 @@
+
+img_equip_3.png
+size: 82,45
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+4_00
+  rotate: false
+  xy: 2, 2
+  size: 42, 41
+  orig: 78, 66
+  offset: 18, 12
+  index: -1
+kaijia
+  rotate: false
+  xy: 46, 9
+  size: 34, 34
+  orig: 38, 38
+  offset: 2, 1
+  index: -1

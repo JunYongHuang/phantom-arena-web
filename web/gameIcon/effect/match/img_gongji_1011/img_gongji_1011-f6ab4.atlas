@@ -1,0 +1,314 @@
+
+img_gongji_1011.png
+size: 259,1015
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1/1_00
+  rotate: true
+  xy: 189, 666
+  size: 69, 68
+  orig: 101, 95
+  offset: 19, 8
+  index: -1
+1/1_01
+  rotate: false
+  xy: 2, 76
+  size: 73, 70
+  orig: 101, 95
+  offset: 15, 8
+  index: -1
+1/1_02
+  rotate: false
+  xy: 78, 92
+  size: 73, 73
+  orig: 101, 95
+  offset: 15, 7
+  index: -1
+1/1_03
+  rotate: false
+  xy: 2, 148
+  size: 74, 73
+  orig: 101, 95
+  offset: 14, 7
+  index: -1
+1/1_04
+  rotate: false
+  xy: 79, 167
+  size: 74, 74
+  orig: 101, 95
+  offset: 14, 7
+  index: -1
+1/1_05
+  rotate: false
+  xy: 2, 2
+  size: 67, 72
+  orig: 101, 95
+  offset: 21, 6
+  index: -1
+1/1_06
+  rotate: true
+  xy: 155, 133
+  size: 67, 74
+  orig: 101, 95
+  offset: 21, 6
+  index: -1
+1/1_07
+  rotate: true
+  xy: 81, 243
+  size: 70, 75
+  orig: 101, 95
+  offset: 18, 7
+  index: -1
+1/1_08
+  rotate: true
+  xy: 164, 273
+  size: 73, 77
+  orig: 101, 95
+  offset: 15, 7
+  index: -1
+1/1_09
+  rotate: true
+  xy: 165, 348
+  size: 76, 78
+  orig: 101, 95
+  offset: 12, 7
+  index: -1
+1/1_10
+  rotate: false
+  xy: 169, 426
+  size: 80, 80
+  orig: 101, 95
+  offset: 8, 7
+  index: -1
+1/1_11
+  rotate: false
+  xy: 2, 453
+  size: 82, 81
+  orig: 101, 95
+  offset: 6, 7
+  index: -1
+1/1_12
+  rotate: false
+  xy: 173, 508
+  size: 82, 80
+  orig: 101, 95
+  offset: 6, 8
+  index: -1
+1/1_13
+  rotate: true
+  xy: 136, 3
+  size: 63, 61
+  orig: 101, 95
+  offset: 25, 9
+  index: -1
+1/1_14
+  rotate: false
+  xy: 153, 68
+  size: 66, 63
+  orig: 101, 95
+  offset: 22, 9
+  index: -1
+1_14
+  rotate: false
+  xy: 71, 7
+  size: 63, 67
+  orig: 120, 121
+  offset: 17, 35
+  index: -1
+1_15
+  rotate: false
+  xy: 189, 737
+  size: 68, 70
+  orig: 120, 121
+  offset: 15, 33
+  index: -1
+1_16
+  rotate: false
+  xy: 185, 590
+  size: 72, 74
+  orig: 120, 121
+  offset: 13, 31
+  index: -1
+1_17
+  rotate: true
+  xy: 2, 294
+  size: 76, 77
+  orig: 120, 121
+  offset: 11, 29
+  index: -1
+1_18
+  rotate: true
+  xy: 2, 372
+  size: 79, 80
+  orig: 120, 121
+  offset: 10, 27
+  index: -1
+1_19
+  rotate: true
+  xy: 88, 522
+  size: 82, 83
+  orig: 120, 121
+  offset: 9, 25
+  index: -1
+1_20
+  rotate: true
+  xy: 2, 607
+  size: 85, 86
+  orig: 120, 121
+  offset: 8, 23
+  index: -1
+1_21
+  rotate: false
+  xy: 95, 606
+  size: 88, 88
+  orig: 120, 121
+  offset: 7, 22
+  index: -1
+1_22
+  rotate: true
+  xy: 96, 732
+  size: 90, 91
+  orig: 120, 121
+  offset: 6, 20
+  index: -1
+1_23
+  rotate: true
+  xy: 107, 824
+  size: 92, 94
+  orig: 120, 121
+  offset: 6, 18
+  index: -1
+1_24
+  rotate: true
+  xy: 107, 918
+  size: 95, 97
+  orig: 120, 121
+  offset: 5, 16
+  index: -1
+1_25
+  rotate: false
+  xy: 84, 315
+  size: 78, 70
+  orig: 120, 121
+  offset: 24, 14
+  index: -1
+1_26
+  rotate: false
+  xy: 2, 223
+  size: 75, 69
+  orig: 120, 121
+  offset: 29, 12
+  index: -1
+1_27
+  rotate: false
+  xy: 84, 387
+  size: 79, 64
+  orig: 120, 121
+  offset: 27, 16
+  index: -1
+1_28
+  rotate: false
+  xy: 86, 453
+  size: 81, 67
+  orig: 120, 121
+  offset: 26, 12
+  index: -1
+1_29
+  rotate: false
+  xy: 2, 536
+  size: 84, 69
+  orig: 120, 121
+  offset: 25, 9
+  index: -1
+1_30
+  rotate: false
+  xy: 158, 202
+  size: 75, 69
+  orig: 120, 121
+  offset: 35, 8
+  index: -1
+1_31
+  rotate: true
+  xy: 206, 937
+  size: 76, 41
+  orig: 120, 121
+  offset: 35, 35
+  index: -1
+1_32
+  rotate: true
+  xy: 206, 903
+  size: 32, 41
+  orig: 120, 121
+  offset: 81, 34
+  index: -1
+glan_0
+  rotate: true
+  xy: 231, 177
+  size: 23, 25
+  orig: 25, 25
+  offset: 1, 0
+  index: -1
+quan
+  rotate: false
+  xy: 2, 910
+  size: 103, 103
+  orig: 103, 103
+  offset: 0, 0
+  index: -1
+shuidan_12
+  rotate: true
+  xy: 2, 766
+  size: 34, 91
+  orig: 50, 110
+  offset: 6, 6
+  index: -1
+shuidan_13
+  rotate: true
+  xy: 2, 874
+  size: 34, 92
+  orig: 50, 110
+  offset: 6, 5
+  index: -1
+shuidan_14
+  rotate: true
+  xy: 2, 838
+  size: 34, 92
+  orig: 50, 110
+  offset: 6, 6
+  index: -1
+shuidan_15
+  rotate: true
+  xy: 2, 730
+  size: 34, 91
+  orig: 50, 110
+  offset: 6, 6
+  index: -1
+shuidan_16
+  rotate: true
+  xy: 95, 696
+  size: 34, 91
+  orig: 50, 110
+  offset: 6, 6
+  index: -1
+shuidan_17
+  rotate: true
+  xy: 2, 694
+  size: 34, 91
+  orig: 50, 110
+  offset: 6, 5
+  index: -1
+shuidan_18
+  rotate: true
+  xy: 2, 802
+  size: 34, 92
+  orig: 50, 110
+  offset: 6, 5
+  index: -1
+shuidan_19
+  rotate: false
+  xy: 203, 809
+  size: 34, 92
+  orig: 50, 110
+  offset: 6, 5
+  index: -1

@@ -1,0 +1,314 @@
+
+img_gongji_1009.png
+size: 833,535
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_01
+  rotate: false
+  xy: 755, 161
+  size: 43, 46
+  orig: 134, 126
+  offset: 47, 35
+  index: -1
+1_02
+  rotate: false
+  xy: 748, 269
+  size: 83, 81
+  orig: 134, 126
+  offset: 22, 19
+  index: -1
+1_03
+  rotate: true
+  xy: 368, 160
+  size: 103, 99
+  orig: 134, 126
+  offset: 11, 10
+  index: -1
+1_04
+  rotate: true
+  xy: 255, 265
+  size: 132, 121
+  orig: 134, 126
+  offset: 0, 0
+  index: -1
+1_05
+  rotate: false
+  xy: 2, 2
+  size: 134, 123
+  orig: 134, 126
+  offset: 0, 0
+  index: -1
+1_06
+  rotate: true
+  xy: 2, 399
+  size: 134, 125
+  orig: 134, 126
+  offset: 0, 0
+  index: -1
+1_07
+  rotate: true
+  xy: 2, 263
+  size: 134, 125
+  orig: 134, 126
+  offset: 0, 0
+  index: -1
+1_08
+  rotate: true
+  xy: 2, 127
+  size: 134, 125
+  orig: 134, 126
+  offset: 0, 0
+  index: -1
+1_09
+  rotate: false
+  xy: 138, 6
+  size: 134, 121
+  orig: 134, 126
+  offset: 0, 2
+  index: -1
+1_10
+  rotate: true
+  xy: 129, 399
+  size: 134, 125
+  orig: 134, 126
+  offset: 0, 0
+  index: -1
+1_11
+  rotate: true
+  xy: 129, 264
+  size: 133, 124
+  orig: 134, 126
+  offset: 1, 1
+  index: -1
+1_12
+  rotate: true
+  xy: 129, 129
+  size: 133, 124
+  orig: 134, 126
+  offset: 1, 1
+  index: -1
+1_13
+  rotate: true
+  xy: 256, 406
+  size: 127, 120
+  orig: 134, 126
+  offset: 7, 3
+  index: -1
+1_14
+  rotate: true
+  xy: 255, 139
+  size: 124, 111
+  orig: 134, 126
+  offset: 10, 3
+  index: -1
+1_15
+  rotate: true
+  xy: 274, 15
+  size: 122, 105
+  orig: 134, 126
+  offset: 12, 3
+  index: -1
+1_16
+  rotate: false
+  xy: 378, 432
+  size: 98, 101
+  orig: 134, 126
+  offset: 12, 8
+  index: -1
+1_17
+  rotate: false
+  xy: 381, 55
+  size: 98, 103
+  orig: 134, 126
+  offset: 12, 6
+  index: -1
+1_18
+  rotate: true
+  xy: 378, 331
+  size: 99, 97
+  orig: 134, 126
+  offset: 12, 12
+  index: -1
+1_19
+  rotate: true
+  xy: 477, 331
+  size: 99, 96
+  orig: 134, 126
+  offset: 12, 13
+  index: -1
+1_20
+  rotate: false
+  xy: 478, 438
+  size: 95, 95
+  orig: 134, 126
+  offset: 16, 14
+  index: -1
+1_21
+  rotate: false
+  xy: 469, 174
+  size: 95, 95
+  orig: 134, 126
+  offset: 16, 14
+  index: -1
+1_22
+  rotate: true
+  xy: 481, 77
+  size: 95, 93
+  orig: 134, 126
+  offset: 16, 14
+  index: -1
+1_23
+  rotate: true
+  xy: 566, 178
+  size: 95, 93
+  orig: 134, 126
+  offset: 15, 14
+  index: -1
+1_24
+  rotate: true
+  xy: 576, 83
+  size: 93, 90
+  orig: 134, 126
+  offset: 15, 15
+  index: -1
+1_25
+  rotate: true
+  xy: 575, 440
+  size: 93, 89
+  orig: 134, 126
+  offset: 15, 15
+  index: -1
+1_26
+  rotate: true
+  xy: 575, 345
+  size: 93, 85
+  orig: 134, 126
+  offset: 15, 17
+  index: -1
+1_27
+  rotate: true
+  xy: 575, 345
+  size: 93, 85
+  orig: 134, 126
+  offset: 15, 17
+  index: -1
+firea01
+  rotate: true
+  xy: 461, 7
+  size: 46, 71
+  orig: 63, 83
+  offset: 15, 1
+  index: -1
+firea02
+  rotate: true
+  xy: 381, 3
+  size: 50, 78
+  orig: 63, 83
+  offset: 11, 1
+  index: -1
+firea03
+  rotate: true
+  xy: 542, 275
+  size: 54, 79
+  orig: 63, 83
+  offset: 8, 1
+  index: -1
+firea04
+  rotate: true
+  xy: 459, 271
+  size: 58, 81
+  orig: 63, 83
+  offset: 4, 1
+  index: -1
+firea05
+  rotate: true
+  xy: 378, 269
+  size: 60, 79
+  orig: 63, 83
+  offset: 1, 1
+  index: -1
+quan_1
+  rotate: false
+  xy: 623, 282
+  size: 61, 61
+  orig: 65, 65
+  offset: 2, 2
+  index: -1
+quan_10
+  rotate: false
+  xy: 534, 9
+  size: 66, 66
+  orig: 89, 89
+  offset: 13, 12
+  index: -1
+quan_11
+  rotate: false
+  xy: 686, 290
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+quan_12
+  rotate: true
+  xy: 748, 209
+  size: 58, 57
+  orig: 60, 60
+  offset: 1, 1
+  index: -1
+quan_2
+  rotate: false
+  xy: 602, 3
+  size: 78, 78
+  orig: 84, 84
+  offset: 3, 3
+  index: -1
+quan_3
+  rotate: false
+  xy: 668, 107
+  size: 85, 85
+  orig: 91, 91
+  offset: 3, 3
+  index: -1
+quan_4
+  rotate: false
+  xy: 661, 194
+  size: 85, 86
+  orig: 92, 92
+  offset: 4, 3
+  index: -1
+quan_5
+  rotate: false
+  xy: 662, 352
+  size: 86, 86
+  orig: 93, 93
+  offset: 4, 4
+  index: -1
+quan_6
+  rotate: false
+  xy: 666, 447
+  size: 86, 86
+  orig: 93, 93
+  offset: 4, 4
+  index: -1
+quan_7
+  rotate: false
+  xy: 682, 21
+  size: 84, 84
+  orig: 93, 93
+  offset: 5, 5
+  index: -1
+quan_8
+  rotate: false
+  xy: 750, 364
+  size: 81, 81
+  orig: 92, 92
+  offset: 6, 6
+  index: -1
+quan_9
+  rotate: false
+  xy: 754, 456
+  size: 77, 77
+  orig: 91, 91
+  offset: 7, 7
+  index: -1
