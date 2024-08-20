@@ -4,11 +4,11 @@
  * @Author: hjy
  * @Date: 2023-12-21 10:15:05
  * @LastEditors: hjy
- * @LastEditTime: 2024-08-20 15:18:10
+ * @LastEditTime: 2024-08-20 16:23:31
  */
 
 
-var game_version = "V_0820_01";	
+var game_version = "V_0820_02";	
 
 var v_type = 2; //0=QA；1=S0; 2=SN;
 
