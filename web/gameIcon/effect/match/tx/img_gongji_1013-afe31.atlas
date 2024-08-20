@@ -1,0 +1,48 @@
+
+img_gongji_1013.png
+size: 220,117
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chongci0001
+  rotate: false
+  xy: 2, 9
+  size: 124, 106
+  orig: 218, 157
+  offset: 78, 3
+  index: -1
+weiyan0001
+  rotate: false
+  xy: 128, 84
+  size: 57, 31
+  orig: 57, 31
+  offset: 0, 0
+  index: -1
+weiyan0002
+  rotate: false
+  xy: 128, 20
+  size: 57, 29
+  orig: 57, 31
+  offset: 0, 0
+  index: -1
+weiyan0003
+  rotate: false
+  xy: 128, 51
+  size: 57, 31
+  orig: 57, 31
+  offset: 0, 0
+  index: -1
+weiyan0004
+  rotate: true
+  xy: 187, 2
+  size: 54, 31
+  orig: 57, 31
+  offset: 0, 0
+  index: -1
+weiyan0005
+  rotate: true
+  xy: 187, 58
+  size: 57, 31
+  orig: 57, 31
+  offset: 0, 0
+  index: -1
