@@ -1,0 +1,1 @@
+{"_$ver":1,"_$id":"t9tr8gi15g","_$runtime":"NeXqnO0GSzGqgAW6thqXMA","_$type":"Box","name":"Box","width":200,"height":204,"_mouseState":2,"_$child":[{"_$id":"1ic1vkul","_$prefab":"../item/BagItem.lh","_$var":true,"name":"BagItem","active":true,"x":-8,"y":-6,"visible":true,"scaleX":1.6,"scaleY":1.6,"_$child":[{"_$override":"8z6l8m4s","name":"selectBox","active":true}]}]}
