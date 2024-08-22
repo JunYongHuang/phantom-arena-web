@@ -8,7 +8,7 @@
  */
 
 
-var game_version = "V_0821_03";	
+var game_version = "V_0822_01";	
 
 var v_type = 2; //0=QA；1=S0; 2=SN;
 
@@ -17,7 +17,7 @@ function getGameVersion(){
 	return game_version;
 }
 function getVType(){
-	return v_type;
+	return v_type;	
 }
 
 //服务器path
