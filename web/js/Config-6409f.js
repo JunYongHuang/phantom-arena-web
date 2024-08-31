@@ -1,14 +1,14 @@
 /*
  * @Descripttion: 
- * @version: 	
+ * @version: 		
  * @Author: hjy
  * @Date: 2023-12-21 10:15:05
  * @LastEditors: hjy
- * @LastEditTime: 2024-08-21 14:56:07
+ * @LastEditTime: 2024-08-23 10:55:08
  */
 
 
-var game_version = "V_0826_13";	
+var game_version = "V_0901_01";	
 
 var v_type = 2; //0=QA；1=S0; 2=SN;
 
@@ -18,7 +18,7 @@ function getGameVersion(){
 }	
 function getVType(){
 	return v_type;	
-}
+}	
 
 //服务器path
 
