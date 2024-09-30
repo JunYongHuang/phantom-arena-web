@@ -1,0 +1,1 @@
+{"meta":{"prefix":"res/union/","scale":1,"image":"union.png"},"frames":{"img_guild hall_jggdi.png":{"frame":{"idx":0,"x":0,"y":0,"w":116,"h":84},"sourceSize":{"w":116,"h":84},"spriteSourceSize":{"x":0,"y":0}},"img_guild hall_wenzidi.png":{"frame":{"idx":0,"x":0,"y":86,"w":85,"h":81},"sourceSize":{"w":85,"h":81},"spriteSourceSize":{"x":0,"y":0},"sizeGrid":[28,26,19,20,0]}}}
