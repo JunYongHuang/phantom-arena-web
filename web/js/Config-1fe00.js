@@ -4,11 +4,11 @@
  * @Author: hjy
  * @Date: 2023-12-21 10:15:05
  * @LastEditors: hjy
- * @LastEditTime: 2024-09-14 11:07:53
+ * @LastEditTime: 2024-10-01 21:10:21
  */
 
 
-var game_version = "V_0914_01";	
+var game_version = "V_1001_01";
 
 var v_type = 2; //0=QA；1=S0; 2=SN;
 
@@ -17,7 +17,7 @@ function getGameVersion(){
 	return game_version;
 }	
 function getVType(){
-	return v_type;	
+	return v_type;
 }	
 
 //服务器path
