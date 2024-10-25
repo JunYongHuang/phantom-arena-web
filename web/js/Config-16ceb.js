@@ -4,11 +4,11 @@
  * @Author: hjy
  * @Date: 2023-12-21 10:15:05
  * @LastEditors: hjy
- * @LastEditTime: 2024-10-23 19:10:06
+ * @LastEditTime: 2024-10-25 17:05:09
  */
 
 
-var game_version = "V_1023_01";
+var game_version = "V_1025_01";
 
 var v_type = 2; //0=QA；1=S0; 2=SN;
 
@@ -177,14 +177,14 @@ function initLiveChat(){
 }
 
 
-function getPayApi(_callBack){
-	// Replace these variables with actual values
+function getPayApi(walletAddress, chain, token, uid, _callBack) {
+    // Replace these variables with actual values
     const apiKey = 'aa289ea0-a5fc-41df-8288-7961c1b4cc87'; // Your API key
     const secretKey = '1982f465-31d2-414b-ac52-5522e695a3c0'; // Your secret key
-    var requestUri = 'https://uat-paymentapi.bitzaro.com/widget'; // Request URL
-	if(v_type == 2){
-		requestUri = 'https://paymentapi.bitzaro.com/widget'; // Request URL
-	}
+    let requestUri = 'https://uat-paymentapi.bitzaro.com/widget'; // UAT Request URL
+    if (v_type == 2) {
+        requestUri = 'https://paymentapi.bitzaro.com/widget'; // Production Request URL
+    }
     
     const httpMethod = 'post';
     const requestTimeStamp = Math.floor(Date.now() / 1000);
@@ -194,19 +194,28 @@ function getPayApi(_callBack){
     const signature = CryptoJS.HmacSHA256(lowercaseString, secretKey).toString(CryptoJS.enc.Base64);
     const xSignature = `${apiKey}:${signature}:${requestTimeStamp}`;
 
+    // Prepare the data in x-www-form-urlencoded format
+    const formData = new URLSearchParams();
+    formData.append('walletAddress', walletAddress);
+    formData.append('chain', chain);
+    formData.append('token', token);
+    formData.append('uid', uid);
+
     fetch(requestUri, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'x-api-key': apiKey,
-        'x-signature': xSignature,
-      },
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+            'x-api-key': apiKey,
+            'x-signature': xSignature,
+        },
+        body: formData.toString() // Send the form data as the body
     })
-      .then((response) => response.json())
-      .then((data) => {
-		if(_callBack){
-			_callBack(data);
-		}
+    .then((response) => response.json())
+    .then((data) => {
+        if (_callBack) {
+            _callBack(data);
+        }
+        // If you want to display the iframe, uncomment the following lines:
         // const iframe = document.createElement('iframe');
         // iframe.title = 'External Content';
         // iframe.src = data.link;
@@ -214,10 +223,10 @@ function getPayApi(_callBack){
         // iframe.height = '600px';
         // iframe.frameBorder = '0';
         // document.body.appendChild(iframe);
-      })
-      .catch((error) => console.error('Error:', error));
-
+    })
+    .catch((error) => console.error('Error:', error));
 }
+
 
  //====================================================
 function decodeCharCode(params){
