@@ -4,11 +4,11 @@
  * @Author: hjy
  * @Date: 2023-12-21 10:15:05
  * @LastEditors: hjy
- * @LastEditTime: 2024-10-25 17:05:09
+ * @LastEditTime: 2024-10-25 20:08:10
  */
 
 
-var game_version = "V_1025_01";
+var game_version = "V_1025_02";
 
 var v_type = 2; //0=QA；1=S0; 2=SN;
 
@@ -177,14 +177,14 @@ function initLiveChat(){
 }
 
 
-function getPayApi(walletAddress, chain, token, uid, _callBack) {
+function getPayApi(requestUri, apiKey, secretKey, walletAddress, chain, token, uid, _callBack) {
     // Replace these variables with actual values
-    const apiKey = 'aa289ea0-a5fc-41df-8288-7961c1b4cc87'; // Your API key
-    const secretKey = '1982f465-31d2-414b-ac52-5522e695a3c0'; // Your secret key
-    let requestUri = 'https://uat-paymentapi.bitzaro.com/widget'; // UAT Request URL
-    if (v_type == 2) {
-        requestUri = 'https://paymentapi.bitzaro.com/widget'; // Production Request URL
-    }
+    // const apiKey = 'aa289ea0-a5fc-41df-8288-7961c1b4cc87'; // Your API key
+    // const secretKey = '1982f465-31d2-414b-ac52-5522e695a3c0'; // Your secret key
+    // let requestUri = 'https://uat-paymentapi.bitzaro.com/widget'; // UAT Request URL
+    // if (v_type == 2) {
+    //     requestUri = 'https://paymentapi.bitzaro.com/widget'; // Production Request URL
+    // }
     
     const httpMethod = 'post';
     const requestTimeStamp = Math.floor(Date.now() / 1000);
