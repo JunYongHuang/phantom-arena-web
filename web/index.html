@@ -148,7 +148,7 @@
     <script type="text/javascript" src="libs/spine-core-3.8-85709.js"></script>
     <script type="text/javascript" src="js/astar-bb110.js"></script>
     <script type="text/javascript" src="js/domparserinone-6030d.js"></script>
-    <script type="text/javascript" src="js/Config-23591.js"></script>
+    <script type="text/javascript" src="js/Config-ce346.js"></script>
     <script type="text/javascript" src="js/web3.min-c6210.js"></script>
     <script type="text/javascript" src="js/bundle-d8710.js"></script>
     <script type="text/javascript" src="js/index-124f2.js"></script>
@@ -529,17 +529,17 @@
             initLiveChat();
 
             // Check if Telegram Web App API is available
-            // if (window.Telegram.WebApp) {
-            //     const webApp = window.Telegram.WebApp;
-            //     // Request full screen
-            //     webApp.expand();
+            if (window.Telegram.WebApp) {
+                const webApp = window.Telegram.WebApp;
+                // Request full screen
+                webApp.expand();
 
-            //     // Set up initial app properties if needed
-            //     webApp.onEvent('viewportChanged', () => {
-            //         // React to viewport changes if necessary
-            //         console.log("Viewport changed to:", webApp.viewportHeight);
-            //     });
-            // }
+                // Set up initial app properties if needed
+                webApp.onEvent('viewportChanged', () => {
+                    // React to viewport changes if necessary
+                    console.log("Viewport changed to:", webApp.viewportHeight);
+                });
+            }
         }
         // 初始化
         // new VConsole();
