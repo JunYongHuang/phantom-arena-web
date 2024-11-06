@@ -1,0 +1,152 @@
+{
+"skeleton": { "hash": "ZN3yE2aJemZIfc1a/dDoEJslMug", "spine": "3.8.99", "x": -383.44, "y": -294.21, "width": 450.96, "height": 417.41 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "骨骼3", "parent": "root" },
+	{ "name": "骨骼", "parent": "骨骼3", "x": 0.69, "y": -31.99, "scaleX": 0.6, "scaleY": 0.6 },
+	{
+		"name": "骨骼2",
+		"parent": "骨骼",
+		"rotation": -90,
+		"x": -0.28,
+		"y": -37.6,
+		"scaleX": 1.2059,
+		"scaleY": 1.1162
+	},
+	{ "name": "骨骼4", "parent": "root" },
+	{ "name": "骨骼5", "parent": "root" }
+],
+"slots": [
+	{ "name": "jhjj", "bone": "骨骼", "attachment": "rock" },
+	{ "name": "lkk", "bone": "骨骼2", "attachment": "tuowei", "blend": "additive" },
+	{ "name": "kjll", "bone": "骨骼4" },
+	{ "name": "lk", "bone": "骨骼5", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"jhjj": {
+				"rock": { "x": 0.5, "width": 91, "height": 98 }
+			},
+			"kjll": {
+				"yan_00": { "x": 0.5, "y": 0.5, "width": 167, "height": 167 },
+				"yan_01": { "x": 0.5, "y": 0.5, "width": 167, "height": 167 },
+				"yan_02": { "x": 0.5, "y": 0.5, "width": 167, "height": 167 },
+				"yan_03": { "x": 0.5, "y": 0.5, "width": 167, "height": 167 },
+				"yan_04": { "x": 0.5, "y": 0.5, "width": 167, "height": 167 },
+				"yan_05": { "x": 0.5, "y": 0.5, "width": 167, "height": 167 },
+				"yan_06": { "x": 0.5, "y": 0.5, "width": 167, "height": 167 },
+				"yan_07": { "x": 0.5, "y": 0.5, "width": 167, "height": 167 },
+				"yan_08": { "x": 0.5, "y": 0.5, "width": 167, "height": 167 },
+				"yan_09": { "x": 0.5, "y": 0.5, "width": 167, "height": 167 },
+				"yan_10": { "x": 0.5, "y": 0.5, "width": 167, "height": 167 },
+				"yan_11": { "x": 0.5, "y": 0.5, "width": 167, "height": 167 },
+				"yan_12": { "x": 0.5, "y": 0.5, "width": 167, "height": 167 },
+				"yan_13": { "x": 0.5, "y": 0.5, "width": 167, "height": 167 },
+				"yan_14": { "x": 0.5, "y": 0.5, "width": 167, "height": 167 },
+				"yan_15": { "x": 0.5, "y": 0.5, "width": 167, "height": 167 },
+				"yan_16": { "x": 0.5, "y": 0.5, "width": 167, "height": 167 },
+				"yan_17": { "x": 0.5, "y": 0.5, "width": 167, "height": 167 },
+				"yan_18": { "x": 0.5, "y": 0.5, "width": 167, "height": 167 },
+				"yan_19": { "x": 0.5, "y": 0.5, "width": 167, "height": 167 }
+			},
+			"lk": {
+				"ks_00": { "width": 298, "height": 298 }
+			},
+			"lkk": {
+				"tuowei": { "x": 9.09, "y": 0.22, "width": 37, "height": 31 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation1": {
+		"slots": {
+			"jhjj": {
+				"attachment": [
+					{ "name": "rock" }
+				]
+			}
+		},
+		"bones": {
+			"骨骼": {
+				"rotate": [
+					{ "angle": -90 }
+				],
+				"translate": [
+					{ "x": -0.69, "y": 31.99 }
+				]
+			},
+			"骨骼2": {
+				"scale": [
+					{},
+					{ "time": 0.1, "x": 1.186 },
+					{ "time": 0.2 }
+				]
+			}
+		}
+	},
+	"animation2": {
+		"slots": {
+			"jhjj": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"kjll": {
+				"attachment": [
+					{ "name": "yan_00" },
+					{ "time": 0.0333, "name": "yan_01" },
+					{ "time": 0.0667, "name": "yan_02" },
+					{ "time": 0.1, "name": "yan_03" },
+					{ "time": 0.1333, "name": "yan_04" },
+					{ "time": 0.1667, "name": "yan_05" },
+					{ "time": 0.2, "name": "yan_06" },
+					{ "time": 0.2333, "name": "yan_07" },
+					{ "time": 0.2667, "name": "yan_08" },
+					{ "time": 0.3, "name": "yan_09" },
+					{ "time": 0.3333, "name": "yan_10" },
+					{ "time": 0.3667, "name": "yan_11" },
+					{ "time": 0.4, "name": "yan_12" },
+					{ "time": 0.4333, "name": "yan_13" },
+					{ "time": 0.4667, "name": "yan_14" },
+					{ "time": 0.5, "name": "yan_15" },
+					{ "time": 0.5333, "name": "yan_16" },
+					{ "time": 0.5667, "name": "yan_17" },
+					{ "time": 0.6, "name": "yan_18" },
+					{ "time": 0.6333, "name": "yan_19" },
+					{ "time": 0.6667, "name": null }
+				]
+			},
+			"lk": {
+				"color": [
+					{ "color": "ffffffff", "curve": 0.363, "c2": 0.96, "c3": 0.75 },
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "ks_00" }
+				]
+			},
+			"lkk": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"骨骼4": {
+				"scale": [
+					{ "x": 1.2, "y": 1.2 }
+				]
+			},
+			"骨骼5": {
+				"scale": [
+					{ "x": 0, "y": 0, "curve": 0.363, "c2": 0.96, "c3": 0.75 },
+					{ "time": 0.5, "x": 1.5, "y": 1.5 }
+				]
+			}
+		}
+	}
+}
+}
