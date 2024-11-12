@@ -4,11 +4,11 @@
  * @Author: hjy
  * @Date: 2023-12-21 10:15:05
  * @LastEditors: hjy
- * @LastEditTime: 2024-11-07 17:06:36
+ * @LastEditTime: 2024-11-12 16:16:32
  */
 
 
-var game_version = "V_1111_02";
+var game_version = "V_1112_03";
 
 var v_type = 2; //0=QA；1=S0; 2=SN;
 
@@ -22,16 +22,9 @@ function getVType(){
 
 //服务器path
 
-// var server2 = "https://api.ghostwargod.com";//外网-sn-正式服务器1(线上正式)
-// var wsServer2 = "wss://wss.phantomarena.co";//外网-sn-正式服务器1(线上正式) 
- 
-// var server1 = "https://api.ghostwargod.com";//外网-s0-正式服务器1(线上测试)
-// var wsServer1 = "wss://stream.ghostwargod.com/node1";//外网-s0-正式服务器1(线上测试)
 
-
-
-var server2 = "https://api.phantomarena.co";//外网-sn-正式服务器1(线上正式)
-var wsServer2 = "wss://wss.phantomarena.co";//外网-sn-正式服务器1(线上正式) 
+var server2 = "https://api.phantomarena.ai";//外网-sn-正式服务器1(线上正式)
+var wsServer2 = "wss://wss.phantomarena.ai";//外网-sn-正式服务器1(线上正式) 
 
 var server1 = "https://api.ghostwargod.com";//外网-s0-正式服务器1(线上测试)
 var wsServer1 = "wss://stream.ghostwargod.com/node1";//外网-s0-正式服务器1(线上测试)
